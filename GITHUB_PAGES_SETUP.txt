@@ -1,0 +1,29 @@
+HELLFIRE EFFECT — GITHUB PAGES SETUP
+
+1. Create a new GitHub repository, such as:
+   hellfire-effect
+
+2. Upload every file in this folder to the repository root.
+   index.html must remain at the top level.
+
+3. In GitHub, open:
+   Settings > Pages
+
+4. Under Build and deployment:
+   Source: Deploy from a branch
+   Branch: main
+   Folder: /(root)
+
+5. Click Save.
+
+The site will normally appear at:
+https://YOUR-USERNAME.github.io/hellfire-effect/
+
+BEFORE PUBLIC LAUNCH
+
+- Add the real book cover as cover.jpg and replace the placeholder
+  in index.html with an image.
+- Replace every href="#" placeholder with its real destination.
+- Connect the contact form to a form service or email workflow.
+- Add real social media links.
+- Optionally configure a custom domain in Settings > Pages.
