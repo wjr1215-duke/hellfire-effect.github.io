@@ -146,3 +146,23 @@ footer a { color: #f0c36a; }
   .hero-inner, .grid { grid-template-columns: 1fr; }
   nav a { display: inline-block; margin: 6px 10px 0 0; }
 }
+/* Hellfire Effect Promotional Badge */
+.promo-badge {
+  margin: 24px 0;
+  text-align: center;
+}
+
+.promo-badge img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+  .promo-badge img {
+    max-width: 100%;
+  }
+}
