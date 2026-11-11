@@ -38,6 +38,9 @@ n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
 (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
 ml('account', '2787855');
 </script>
+<meta name="blog-api" content="https://staging.hellfire-effect.com/live">
+<link rel="stylesheet" href="https://staging.hellfire-effect.com/live/blog.css">
+<script type="module" src="https://staging.hellfire-effect.com/live/blog.mjs"></script>
 </head>
 <body>
 <header>
@@ -64,26 +67,89 @@ ml('account', '2787855');
   <div class="ml-embedded" data-form="RpZa8r"></div>
   <p>If the embedded form does not load, <a href="https://preview.mailerlite.io/forms/2787855/203857206809986599/share">open the signup form on MailerLite</a>.</p>
 </section>
-<article class="blog-post">
+<article class="blog-post" data-article="welcome">
   <h3>Welcome to the World of Hellfire Effect</h3>
   <p class="meta">Starter post</p>
   <p>What if murder carried an immediate consequence? <em>Hellfire Effect: Thou Shalt Not Kill</em> explores a world transformed by a mysterious phenomenon that challenges humanity's understanding of justice, faith, and science.</p>
+  <details class="discussion">
+    <summary>Read &amp; Discuss</summary>
+    <h4>Reader comments</h4>
+    <div class="comments"></div>
+    <form class="comment-form">
+      <label>Display name <input name="name" required maxlength="80" autocomplete="nickname"></label>
+      <label>Comment <textarea name="message" required maxlength="2000"></textarea></label>
+      <p>Comments appear after W.J. Rogers approves them.</p>
+      <button disabled>Submit comment</button>
+      <p role="status"></p>
+    </form>
+  </details>
 </article>
-<article class="blog-post">
+<article class="blog-post" data-article="why-i-wrote">
   <h3>Why I Wrote Hellfire Effect</h3>
   <p class="meta">Starter post</p>
   <p>This story was inspired by a desire to prompt meaningful conversations about restoring the value of human life and imagining how society might change if violence itself became unthinkable.</p>
+  <details class="discussion">
+    <summary>Read &amp; Discuss</summary>
+    <h4>Reader comments</h4>
+    <div class="comments"></div>
+    <form class="comment-form">
+      <label>Display name <input name="name" required maxlength="80" autocomplete="nickname"></label>
+      <label>Comment <textarea name="message" required maxlength="2000"></textarea></label>
+      <p>Comments appear after W.J. Rogers approves them.</p>
+      <button disabled>Submit comment</button>
+      <p role="status"></p>
+    </form>
+  </details>
 </article>
-<article class="blog-post">
+<article class="blog-post" data-article="faith-science">
   <h3>Faith, Science, and Society</h3>
   <p class="meta">Starter post</p>
   <p>Throughout the story, scientists, political leaders, and people of faith wrestle with a phenomenon they cannot fully explain. Their reactions reveal much about fear, hope, leadership, and humanity.</p>
+  <details class="discussion">
+    <summary>Read &amp; Discuss</summary>
+    <h4>Reader comments</h4>
+    <div class="comments"></div>
+    <form class="comment-form">
+      <label>Display name <input name="name" required maxlength="80" autocomplete="nickname"></label>
+      <label>Comment <textarea name="message" required maxlength="2000"></textarea></label>
+      <p>Comments appear after W.J. Rogers approves them.</p>
+      <button disabled>Submit comment</button>
+      <p role="status"></p>
+    </form>
+  </details>
 </article>
-<article class="blog-post">
+<article class="blog-post" data-article="value-of-life">
   <h3>Can Fiction Help Restore the Value of Human Life?</h3>
   <p class="meta">SEO starter topic</p>
   <p>Fiction allows readers to enter a world of consequences, choices, and reflection. <em>Hellfire Effect</em> uses a speculative premise to encourage deeper thought about violence, accountability, and the worth of every person.</p>
+  <details class="discussion">
+    <summary>Read &amp; Discuss</summary>
+    <h4>Reader comments</h4>
+    <div class="comments"></div>
+    <form class="comment-form">
+      <label>Display name <input name="name" required maxlength="80" autocomplete="nickname"></label>
+      <label>Comment <textarea name="message" required maxlength="2000"></textarea></label>
+      <p>Comments appear after W.J. Rogers approves them.</p>
+      <button disabled>Submit comment</button>
+      <p role="status"></p>
+    </form>
+  </details>
 </article>
+<section class="blog-post" aria-labelledby="poll-heading">
+  <h2 id="poll-heading">Reader Polls</h2>
+  <div id="polls"></div>
+  <p id="poll-status" role="status"></p>
+</section>
+<section class="blog-post" aria-labelledby="ask-heading">
+  <h2 id="ask-heading">Ask the Author</h2>
+  <p>Send a question privately to W.J. Rogers.</p>
+  <form id="ask">
+    <label>Name <input name="name" required maxlength="80" autocomplete="name"></label>
+    <label>Question <textarea name="message" required maxlength="2000"></textarea></label>
+    <button disabled>Send question</button>
+    <p role="status"></p>
+  </form>
+</section>
 </main>
 
 <footer>
